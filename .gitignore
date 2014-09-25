@@ -1,0 +1,11 @@
+#include<stdio.h>
+# define c 3.14
+void main()
+{
+float r;
+printf("ENTER VALUE OF RADIUS");
+scanf("%f",&r);
+printf("AREA = %f", c*r*r);
+printf("CIRCUMFRENCE = %f", 2*c*r);
+
+}
